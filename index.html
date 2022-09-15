@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset= "UTF-8">
+        <title>Juego del Ahorcado</title>
+        <link href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <img src="imagenes/logo.png">
+                <h1> Juego del Ahorcado<h1>
+            </div>
+        </header>
+    
+        <main>
+            <div id="div/desaparece" calss="botones-home">
+                <a href="#game">
+                    <input class="btn-iniciar" type="submit" value="Iniciar Juego" id="iniciar-juego" onclick="iniciarJuego()">
+                    <input class="btn-agregar-palabra" type="submit" value="Agregar nueva palabra" id="agregar-palabra" onclick="agregarPalabra()">
+
+                </a>
+
+            </div>
+
+            <div id="div/aparece-dibujoAhorcado" class="canvas">
+                <!--canvas-->
+                <canvas id="game" width="1200" height="860"></canvas>
+                <div class="subrayado">
+
+                </div>
+            </div>
+            
+        </main>
+      <script src="horca.js"></script>
+      <script src="canvas.js"></script>
+    </body>
+  
+
+</html>

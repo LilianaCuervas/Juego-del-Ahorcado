@@ -1,0 +1,71 @@
+body{
+    min-width: 1224px;
+    position: relativa;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(imagenes/imagen\ de\ desierto.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+.caja{
+
+    padding: 2px;
+}
+
+h1{
+    color: #A48448;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+    text-decoration-style: wavy;
+}
+
+.botones-home {
+   
+    top: 20rem;
+}
+
+.btn-iniciar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 500px;
+    top: 20rem;
+    background:#A48448;
+    border-radius: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: center;
+
+}
+
+.btn-agregar-palabra{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 500px;
+    top: 30rem;
+    border: 5px solid #A48448;
+    border-radius: 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: center;
+
+}
+
